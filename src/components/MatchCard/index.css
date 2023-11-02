@@ -1,0 +1,56 @@
+/* Write your CSS here */
+.match-card {
+  background: #0f172a;
+  height: 550px;
+  width: 350px;
+  border-radius: 8px;
+  text-align: center;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  color: #ffffff;
+  font-weight: 600;
+  padding: 30px 30px 20px;
+}
+.green {
+  color: #18ed66;
+  font-size: 20px;
+  margin-top: 20px;
+}
+.red {
+  color: #e31a1a;
+  font-size: 20px;
+}
+.teamLogo {
+  height: 250px;
+  width: 250px;
+}
+.teamName {
+  font-size: 30px;
+}
+.result {
+  font-size: 18px;
+}
+@media (max-width: 1000px) {
+  .match-card {
+    height: 450px;
+    width: 250px;
+  }
+  .green {
+    color: #18ed66;
+    font-size: 15px;
+  }
+  .red {
+    color: #e31a1a;
+    font-size: 15px;
+  }
+  .teamLogo {
+    height: 180px;
+    width: 180px;
+  }
+  .teamName {
+    font-size: 20px;
+  }
+  .result {
+    font-size: 14px;
+  }
+}

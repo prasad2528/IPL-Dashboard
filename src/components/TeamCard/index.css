@@ -1,0 +1,33 @@
+/* Write your CSS here */
+.teamList {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff33;
+  border-radius: 12px;
+  color: #fff;
+  margin-bottom: 30px;
+  width: 600px;
+  border: 1px solid #fff;
+}
+.image {
+  width: 200px;
+  height: 150px;
+  margin: 5px 12px;
+}
+.name {
+  font-size: 30px;
+}
+@media (max-width: 1000px) {
+  .teamList {
+    width: 280px;
+    justify-content: center;
+    align-items: center;
+  }
+  .image {
+    width: 150px;
+    height: 100px;
+  }
+  .name {
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,81 @@
+/* Write your CSS here */
+.latest-Match-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0f172a;
+  border: 2px solid #ffffff33;
+  color: #ffffff;
+  margin: 30px 0;
+  font-family: bree serif;
+}
+@media (min-width: 1000px) {
+  .latest-Match-container {
+    padding: 20px 50px;
+  }
+}
+.first-row {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.main-logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+  width: 250px;
+}
+.second-row {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+.innings {
+  font-size: 25px;
+  font-weight: 600;
+}
+.values {
+  font-size: 18px;
+  font-weight: 400;
+}
+@media (max-width: 1000px) {
+  .latest-Match-container {
+    padding: 10px 10px;
+  }
+  .innings {
+    font-size: 20px;
+    margin-bottom: -10px;
+  }
+  .values {
+    font-size: 14px;
+    text-align: center;
+  }
+  .team-name {
+    font-size: 20px;
+  }
+  .main-logo {
+    width: 180px;
+    height: 180px;
+  }
+}
+@media (max-width: 600px) {
+  .innings {
+    font-size: 13px;
+    margin-bottom: -10px;
+  }
+  .values {
+    font-size: 7px;
+    text-align: center;
+  }
+  .team-name {
+    font-size: 15px;
+  }
+  .main-logo {
+    width: 140px;
+    height: 140px;
+  }
+}
